@@ -1,0 +1,7 @@
+@mixin m-900 {
+  @media (max-width: 899px) { @content; }
+}
+
+@mixin m-600 {
+  @media (max-width: 599px) { @content; }
+}
